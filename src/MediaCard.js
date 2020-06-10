@@ -1,5 +1,4 @@
 import React from 'react';
-import images from './images.png';
 
 function MediaCard(props){
     return(
