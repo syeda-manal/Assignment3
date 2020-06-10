@@ -5,7 +5,7 @@ function MediaCard(props){
         <div>
             <center>
             <h2>Title:  {props.title}</h2>
-            <img src = {props.image} width = "100" height = "100"/>
+            <img src = {props.image} alt = "" width = "100" height = "100"/>
             <p>
                 {/* This is the body of MediaCard: */}
                <br /> Name : {props.body.Name}
