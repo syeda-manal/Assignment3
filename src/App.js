@@ -1,9 +1,8 @@
 import React from 'react';
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import './MediaCard.js'
 import images from './images.png';
 
-import logo from './logo.svg';
 import './App.css';
 import MediaCard from './MediaCard.js';
 
