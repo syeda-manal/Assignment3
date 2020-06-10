@@ -16,7 +16,7 @@ jobs:
         with:
           cmd: install
       - name: build yarn
-        run: CI= false yarn build
+        run:  yarn build
       - name: Install surge
         run: npm install -g surge
       - name: Run surge
