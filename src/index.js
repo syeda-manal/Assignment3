@@ -15,3 +15,17 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+/* 
+import React from 'react';
+import ReactDOM from 'react-dom'
+
+function Hello(){
+  return <div>Hello World from <strong>Manal</strong>
+  <p>This is my first React static page</p>
+  5+3 = {5+3}</div>;
+
+}
+
+ReactDOM.render(<Hello/>,document.querySelector('#root')); */

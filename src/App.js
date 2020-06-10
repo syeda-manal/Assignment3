@@ -1,26 +1,28 @@
 import React from 'react';
+import Button from "@material-ui/core/Button";
+import './MediaCard.js'
+import images from './images.png';
+
 import logo from './logo.svg';
 import './App.css';
+import MediaCard from './MediaCard.js';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  // return <div>Hello World from <strong>Syeda Manal</strong>
+  // <p>This is my first React static page</p>
+  // 5+3 = {5+3}</div>;
+
+  // return (
+  //   <Button variant="contained" color="primary">
+  //     Hello World
+  //   </Button>
+  // );
+
+  return(
+    <div className= 'MediaCard'>
+      <MediaCard title = "Chief Executive Officer" body = {{Name: "Muhammad Motakif", FatherName: "Khalil", ID : "xxxxxxx"}} image = {images}  />
     </div>
-  );
+  )
 }
 
 export default App;
